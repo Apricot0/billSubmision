@@ -125,7 +125,7 @@ app.post("/modify_bill/:id", async (req, res) => {
     bill.date = dateOfService;
     bill.amount = billAmount;
     await bill.save();
-    res.sendStatus(200);
+    res.status(200).send(bill);
   } catch (err) {
     console.error(err);
     res.status(500).send("Internal Server Error");

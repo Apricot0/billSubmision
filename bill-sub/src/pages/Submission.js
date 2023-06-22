@@ -136,7 +136,6 @@ const FormPage = () => {
                                 type="file"
                                 name="billImage"
                                 onChange={handleInputChange}
-                                required
                             />
                         </label>
                     </div>

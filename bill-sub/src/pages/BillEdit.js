@@ -156,7 +156,6 @@ export default function BillEdit() {
                                 type="file"
                                 name="billImage"
                                 onChange={handleInputChange}
-                                required
                             />
                         </label>
                     </div>
