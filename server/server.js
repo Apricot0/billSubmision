@@ -3,7 +3,6 @@
 // This is where you should start writing server-side code for this application.
 const express = require("express");
 const mongoose = require("mongoose");
-const multer = require("multer");
 const PORT = 8000;
 const DB_URL = "mongodb://127.0.0.1:27017/bill_sub";
 const cors = require("cors");
